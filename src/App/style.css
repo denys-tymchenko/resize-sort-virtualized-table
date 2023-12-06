@@ -1,0 +1,45 @@
+.App {
+  width: 100%;
+  overflow: hidden;
+  margin: 16px;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.user-actions .icon:not(:last-child) {
+  margin-right: 8px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.App th,
+.App td {
+  text-align: center;
+}
+
+.App table {
+  border-collapse: collapse;
+}
+
+.App thead {
+  background-color: #f0f0f0;
+}
+
+.App tbody {
+  background-color: #ffffff;
+}
